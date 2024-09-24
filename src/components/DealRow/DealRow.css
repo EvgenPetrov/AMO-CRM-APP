@@ -1,0 +1,32 @@
+.deal-row {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.deal-row:hover {
+    background-color: #eef;
+}
+
+.deal-details-row td {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.deal-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.deal-details p {
+    margin: 5px 0;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.status span {
+    margin-right: 10px;
+}

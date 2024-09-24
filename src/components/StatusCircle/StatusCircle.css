@@ -1,0 +1,21 @@
+.status-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.status-circle.overdue {
+    background-color: red;
+}
+
+.status-circle.today {
+    background-color: green;
+}
+
+.status-circle.future {
+    background-color: yellow;
+}
+
+.status-circle.none {
+    background-color: gray;
+}
